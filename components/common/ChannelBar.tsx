@@ -36,14 +36,14 @@ function ChannelBar() {
         router.push(`/channels/${server}/settings`);
     };
     return (
-        <div className="h-full w-full bg-fabchat-background relative">
-            <p className="px-3 py-4 shadow-xl font-bold cursor-pointer hover:bg-fabchat-hoverBackground text-fabchat-text relative">
+        <div className="h-full w-full bg-grape-background relative">
+            <p className="px-3 py-4 shadow-xl font-bold cursor-pointer hover:bg-grape-hoverBackground text-fabchat-text relative">
                 <span onClick={openSettings}>
                     {serverDoc?.data()?.["name"] as string}
                 </span>
                 <span
                     onClick={addChannel}
-                    className="absolute right-4 text-2xl my-auto top-3 hover:text-fabchat-primary"
+                    className="absolute right-4 text-2xl my-auto top-3 hover:text-grape-primary"
                 >
                     +
                 </span>
@@ -81,7 +81,7 @@ function ChannelIcon({ channel }: { channel: Channel }) {
     };
     return (
         <div
-            className="cursor-pointer hover:bg-fabchat-hoverPrimary rounded-lg px-2 py-1"
+            className="cursor-pointer hover:bg-grape-hoverPrimary rounded-lg px-2 py-1"
             onClick={toggleChannel}
         >
             <div className="text-base">

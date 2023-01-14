@@ -54,13 +54,13 @@ export const InviteServer = (props: inviteDoc) => {
                 <div className="space-x-3 mt-2">
                     <button
                         onClick={acceptInvite}
-                        className="p-1 px-2 bg-fabchat-primary rounded-md cursor-pointer hover:shadow-green-500 hover:shadow-md"
+                        className="p-1 px-2 bg-grape-primary rounded-md cursor-pointer hover:shadow-green-500 hover:shadow-md"
                     >
                         Accept
                     </button>
                     <button
                         onClick={rejectInvite}
-                        className="p-1 px-2 text-black bg-fabchat-hoverSecondary rounded-md cursor-pointer hover:shadow-red-500 hover:shadow-md"
+                        className="p-1 px-2 text-black bg-grape-hoverSecondary rounded-md cursor-pointer hover:shadow-red-500 hover:shadow-md"
                     >
                         Reject
                     </button>

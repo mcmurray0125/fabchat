@@ -14,7 +14,7 @@ export const Member = (props: MemberProp) => {
     const user = data?.data();
 
     return (
-        <div className="flex cursor-pointer items-center pl-2 hover:bg-fabchat-hoverBackground py-2">
+        <div className="flex cursor-pointer items-center pl-2 hover:bg-grape-hoverBackground py-2">
             {user &&
                 (user?.photoURL ? (
                     <Image

@@ -10,7 +10,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="absolute top-4 left-10">
-              <p className="text-3xl font-sans font-extrabold text-fabchat-hoverBackground cursor-pointer">Fabchat</p>
+              <p className="text-3xl font-sans font-extrabold text-grape-hoverBackground cursor-pointer">Fabchat</p>
             </div>
             <div className="space-y-4">
                 <h1 className="text-center text-[4rem] font-serif font-extrabold mt-[10%] text-white bg-blue-300 bg-opacity-10">

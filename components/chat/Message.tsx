@@ -10,7 +10,7 @@ interface message {
 
 export const Message = (props: message) => {
     return (
-        <div className="flex hover:bg-fabchat-hoverPrimary py-2 items-center relative">
+        <div className="flex hover:bg-grape-hoverPrimary py-2 items-center relative">
             <div className="flex flex-col items-start justify-start p-2 cursor-pointer">
                 {props.photoUrl ? (
                     <Image

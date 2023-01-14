@@ -53,7 +53,7 @@ function FriendsList() {
         );
     return (
         <div className="h-full w-full flex flex-col">
-            <p className="uppercase text-sm px-3 py-2 flex justify-between text-fabchat-subtext">
+            <p className="uppercase text-sm px-3 py-2 flex justify-between text-grape-subtext">
                 Direct Messages{" "}
                 <span className="cursor-pointer" onClick={addDm}>
                     <BsPlus size={20} />
@@ -77,7 +77,7 @@ const FriendChat = ({ dm, id }: { dm: DocumentData; id: String }) => {
         router.push(`/channels/@me/${id}`);
     };
     return (
-        <p className="text-fabchat-text px-3 py-2 bg-fabchat-hoverBackground rounded-lg cursor-pointer" onClick={toggle}>
+        <p className="text-fabchat-text px-3 py-2 bg-grape-hoverBackground rounded-lg cursor-pointer" onClick={toggle}>
             {getRecipientEmail(dm["users"], user)}
         </p>
     );

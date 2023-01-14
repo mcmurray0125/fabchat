@@ -20,11 +20,11 @@ function Login() {
     }, [user]);
 
     return (
-        <div className="h-screen w-screen bg-fabchat-background grid place-items-center">
+        <div className="h-screen w-screen bg-grape-background grid place-items-center">
             <Head>
                 <title>Fabchat</title>
             </Head>
-            <div className="h-[40%] w-[40%] rounded-xl bg-fabchat-hoverPrimary p-4 flex flex-col items-center justify-evenly">
+            <div className="h-[40%] w-[40%] rounded-xl bg-grape-hoverPrimary p-4 flex flex-col items-center justify-evenly">
                 <div>
                     <h1 className="text-4xl text-center font-serif text-fabchat-text">
                         Welcome to Fabchat
@@ -36,7 +36,7 @@ function Login() {
                 <div className="w-full flex justify-center">
                     <button
                         onClick={signIn}
-                        className="mx-auto bg-fabchat-primary hover:bg-fabchat-hoverBackground rounded-full px-12 py-4 text-white font-extrabold"
+                        className="mx-auto bg-grape-primary hover:bg-grape-hoverBackground rounded-full px-12 py-4 text-white font-extrabold"
                     >
                         Sign In
                     </button>

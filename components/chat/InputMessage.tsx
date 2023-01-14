@@ -88,7 +88,7 @@ function InputMessage({ channelName }: { channelName: string }) {
         setImageToPost(null);
     };
     return (
-        <div className="absolute bottom-3 left-4 flex flex-col w-[90%] rounded-lg px-2 py-1 bg-fabchat-primary">
+        <div className="absolute bottom-3 left-4 flex flex-col w-[90%] rounded-lg px-2 py-1 bg-grape-primary">
             {imageToPost && (
                 <div className="flex items-center space-x-4">
                     <AiOutlineClose

@@ -30,7 +30,7 @@ function Channel() {
 
     return (
         <PageLayout>
-            <div className="h-full w-full flex bg-fabchat-hoverBackground flex-col relative">
+            <div className="h-full w-full flex bg-grape-hoverBackground flex-col relative">
                 <Head>
                     <title>{getRecipientEmail(channelData?.["users"], user)}</title>
                 </Head>

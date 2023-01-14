@@ -46,7 +46,7 @@ function Channel() {
                     </title>
                 </Head>
 
-                <div className="bg-fabchat-hoverBackground h-full w-3/4 relative">
+                <div className="bg-grape-hoverBackground h-full w-3/4 relative">
                     <p className="px-3 py-3 shadow-3xl font-semibold text-fabchat-text cursor-pointer flex items-center">
                         <span className="mr-2 text-2xl">#</span>
                         {channelData?.["name"]}
@@ -54,14 +54,14 @@ function Channel() {
                     <Messages />
                     <InputMessage channelName={channelData?.["name"]} />
                 </div>
-                <div className="bg-fabchat-background w-1/4">
+                <div className="bg-grape-background w-1/4">
                     <div className="justify-between px-3 py-3 shadow-xl font-semibold text-blue-900 cursor-pointer flex items-center">
                         <input
                             type="text"
-                            className="outline-none h-full w-3/4 text-sm bg-fabchat-primary rounded-lg placeholder:text-sm px-2 py-2"
+                            className="outline-none h-full w-3/4 text-sm bg-grape-primary rounded-lg placeholder:text-sm px-2 py-2"
                             placeholder="Search"
                         />
-                        <BiHelpCircle size={20} className="text-fabchat-subtext" />
+                        <BiHelpCircle size={20} className="text-grape-subtext" />
                     </div>
                     <Members />
                 </div>

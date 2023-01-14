@@ -5,11 +5,11 @@ import { userToRedux } from "../../utils/functions";
 function Loading() {
     userToRedux();
     return (
-        <div className="h-screen w-screen grid place-items-center bg-fabchat-background">
+        <div className="h-screen w-screen grid place-items-center bg-grape-background">
             <Head>
                 <title>Fabchat</title>
             </Head>
-            <div className="h-2/3 w-1/3 bg-fabchat-hoverBackground shadow-xl rounded-xl grid place-items-center">
+            <div className="h-2/3 w-1/3 bg-grape-hoverBackground shadow-xl rounded-xl grid place-items-center">
                 <img
                     src="/images/Fabchat.png"
                     className="h-52 w-52 object-cover rounded-full"

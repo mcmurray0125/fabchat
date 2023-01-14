@@ -60,7 +60,7 @@ function ServerBar() {
         router.push(`/channels/@me`);
     };
     return (
-        <div className="h-full w-full bg-fabchat-hoverBackground py-3 space-y-3">
+        <div className="h-full w-full bg-grape-hoverBackground py-3 space-y-3">
             <div
                 className="h-[3.5rem] w-[3.5rem] rounded-full hover:rounded-xl cursor-pointer mx-auto"
                 onClick={navigate}
@@ -88,7 +88,7 @@ function ServerBar() {
             })}
             <div
                 onClick={addServer}
-                className="bg-blue-400 h-[3.5rem] w-[3.5rem] rounded-full hover:rounded-xl cursor-pointer mx-auto flex items-center justify-center font-semibold text-xl"
+                className="bg-grape-addServerBtn h-[3.5rem] w-[3.5rem] rounded-full hover:rounded-xl cursor-pointer mx-auto flex items-center justify-center font-semibold text-xl"
             >
                 +
             </div>
