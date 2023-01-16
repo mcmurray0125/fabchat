@@ -13,14 +13,14 @@ function PageLayout({ children }: { children: ReactNode }) {
         setServer(router.query["server"] as string);
     }, [router.isReady]);
     return (
-        <div className="h-screen w-screen overflow-hidden flex">
-            <div className="h-full w-[5%]">
+        <div className="h-screen w-screen overflow-hidden flex-col">
+            <div className="h-[10%] w-full">
                 <ServerBar />
             </div>
-            <div className="h-full w-[20%]">
+            <div className="h-[30%] w-full">
                 {server ? <ChannelBar /> : <FriendsBar />}
             </div>
-            <div className="h-full w-[75%]">{children}</div>
+            <div className="h-full w-full">{children}</div>
         </div>
     );
 }
